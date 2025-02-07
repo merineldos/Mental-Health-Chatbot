@@ -4,6 +4,7 @@ import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import 'tailwindcss/tailwind.css';
 import './App.css';
+const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
 
 function App() {
   const [chatHistory, setChatHistory] = useState([]);
@@ -20,7 +21,9 @@ function App() {
     try {
       setIsFetching(true);
       const response = await axios.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDoBncKX4i5DzGHqAD_02x5WtZY7ZLXhXs",
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+      
+        
         {
           "contents": [
             {
