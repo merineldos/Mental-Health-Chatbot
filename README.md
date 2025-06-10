@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Mental-Health-Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A compassionate and interactive chatbot focused on supporting **students' mental health** by providing personalized suggestions, empathetic interactions, and helpful resources. Built with modern web technologies, this chatbot aims to analyze the current emotional and mental state of users through thoughtful conversation, ensuring they feel heard and guided toward well-being.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+Mental health is a critical concern for students facing academic pressure, social challenges, and personal growth. This chatbot uses the power of conversational AI to offer a safe, non-judgmental space for students to express their feelings and receive relevant advice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Conversations:** The chatbot asks thoughtful, context-aware questions to understand the user's current mental state.
+- **Personalized Suggestions:** Based on user responses, the chatbot provides tailored coping strategies and motivational tips.
+- **Beautiful UI:** Designed with React and Tailwind CSS for a clean, calming, and user-friendly interface.
+- **Emergency Support:** Integrated helpline and emergency contacts are readily available within the chatbot for immediate assistance.
+- **Powered by Gemini API:** Utilizes the Gemini API for advanced natural language understanding and response generation.
+- **Tech Stack:** React (frontend), Node.js (backend), Gemini API, Tailwind CSS.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How It Works
 
-### `npm run build`
+1. **User Interaction:** Users engage with the chatbot through an intuitive UI, sharing their thoughts and feelings.
+2. **Analysis:** The chatbot processes inputs using Gemini API, analyzing sentiment and emotional cues.
+3. **Response Generation:** Personalized advice and supportive dialogue are generated dynamically.
+4. **Emergency Help:** If distress signals are detected, the chatbot suggests helpline numbers and emergency contacts.
+5. **Continuous Support:** The chatbot encourages ongoing interaction to help users track and improve their mental health over time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190724.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190808.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190837.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190846.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190854.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20190909.png)  
+![Screenshot](./frontend/src/images/Screenshot%202025-06-09%20191527.png)
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **API:** Gemini API for natural language processing
+- **Deployment:** Create React App for frontend setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
